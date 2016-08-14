@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<title>config</title>
+	 <style>
+      body {
+        width: 300px;
+        min-height: 100px;
+      }
+      .form-group{
+      	margin-bottom:10px;
+      }
+      .lint{
+      	color:#f60;
+      }
+    </style>
+</head>
+<body>
+	<div>
+		<div class="form-group">
+				<label>透明度:</label>
+				<input value="0.9" id="input_opacity">
+				<span class="lint">(0-1之间)</span>
+		</div>
+		<div class="form-group">
+			<button id="open">Open</button>
+			<button id="close">Close</button>
+		</div>	
+	</div>	
+  <script type="text/javascript" src="popup.js"></script>
+</body>
+</html>
